@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(images.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-transform: capitalize;
+}
+.container h1{
+    font-size: 100px;
+    font-style: italic;
+    margin-top: 200px;
+}
+
+p {
+    font-size: 30px;
+    margin-top: 10px;
+    font-weight: 500;
+}

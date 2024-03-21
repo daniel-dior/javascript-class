@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container"></div>
+    <p>have a nice day</p>
+
+    <!-- <script>
+        // using if or else condition
+        let container = document.querySelector(".container");
+        let timeNow = new Date().getHours();
+
+        let greeting = 
+        timeNow >= 1 && timeNow < 12
+        ? "Good morning"
+
+        : timeNow >= 12 && timeNow < 16 
+        ? "good afternoon"  
+        : "good evening";
+
+        container.innerHTML = `<h1>${greeting}..</h1>`
+    </script> -->
+    <script>
+        // using switch condition
+        let container = document.querySelector(".container");
+        const timeNow = new Date().getHours();
+
+        switch (true) {
+          case  timeNow >=1 && timeNow < 12:
+
+          greeting = 'good morning' 
+          break;
+
+          case timeNow >=12 && timeNow < 16:
+
+          greeting = 'good afternoon'
+          break;
+
+          case timeNow >=16 && timeNow < 21:
+
+        greeting = 'good evening'
+        break;
+
+        case timeNow >=21 && timeNow < 24:
+
+greeting = 'good night'
+break;
+
+        }
+        
+        container.innerHTML = `<h1>${greeting}..</h1>`
+    </script>
+</body>
+</html>

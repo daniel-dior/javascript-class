@@ -13,20 +13,20 @@ table, th, td{
 }
 table {
     width: 100%;
+    background-color: rgb(228, 224, 224);
+    font-size: bold;
+}
+tr:nth-child(even) {
+    background-color: grey;
+    color: white;
 }
 th {
-    background-color: rgb(219, 218, 218);
+    font-size: 20px;
 }
-th:nth-last-child(even) {
-    background-color: grey;
-}
-td :nth-last-child(odd) {
-    background-color: rgb(131, 126, 126);
-    color: white;
-    padding: 10px;
-}
-td {
-    background-color: rgb(241, 241, 241);
-
-    font-weight: bold;
+button {
+    padding: 20px;
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    cursor: pointer;
 }

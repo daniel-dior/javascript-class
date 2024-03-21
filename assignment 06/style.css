@@ -14,3 +14,19 @@ table, th, td{
 table {
     width: 100%;
 }
+th {
+    background-color: rgb(219, 218, 218);
+}
+th:nth-last-child(even) {
+    background-color: grey;
+}
+td :nth-last-child(odd) {
+    background-color: red;
+    color: white;
+    padding: 10px;
+}
+td {
+    background-color: rgb(241, 241, 241);
+
+    font-weight: bold;
+}
